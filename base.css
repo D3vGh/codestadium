@@ -24,7 +24,7 @@ body {
 
 .Banner {
   height: 600px;
-  background: url(comi.jpg);
+  background: url(comic.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -39,9 +39,8 @@ body {
 
 .navbar {
   position: relative;
-  top: 300px;
-  opacity: 0.9;
-
+  top: 50px;
+  border-radius: 0;
 }
 
 @media (max-width: 460px) {
@@ -113,7 +112,7 @@ body {
   text-align: center;
   font-size: 24px;
   padding: 14px 28px;
-  width: 50%;
+  width: 20%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -147,16 +146,44 @@ body {
 @media (max-width: 460px) {
 
   .button {
+    width: 50%;
     font-size: 15px;
   }
 }
 
-img {
+.dev-logo {
   width: 30%;
   height: auto;
   position: relative;
   top: 50px;
   box-shadow: 0 12px 16px 0 rgba(165, 123, 123, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-opacity:0.9;
 }
-
+.dev-image1 {
+   height: 350px;
+   background: url(comi.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color:white;
+}
+.dev-image2 {
+  height: 350px;
+  background: url(cami.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.dev-image3 {
+  height: 350px;
+  background: url(comi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 30%;
+  color: black;
+  font-weight: 400;
+  font-size: 70px;
+}
